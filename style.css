@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+}
+
+.title-div {
+    background-color: #faf29d;
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: 'Ranchers', serif;
+    font-size: 70px;
+    color: #fc8b8b;
+    width: 1000px;
+
+}
+.sketch-board {
+    display: grid;
+    grid-template-columns: repeat(16, 100px);
+    grid-template-rows: repeat(16, 100px);
+    margin-left: 0;
+    padding: 200px 0;
+    gap: 0;
+}
+
+.boardSquare {
+    box-sizing: border-box;
+    border: 0.2px solid red;
+    width: 100px;
+    height: 100px;
+}
+
+.game-menu {
+    display: flex;
+    width: 1000px;
+    flex-direction: column;
+    justify-content: center;
+    border:30px solid #69b8e5;
+    background-color: #d1ebd3;
+    margin-right: 0;
+}
+
+.game-menu button {
+    background-color: #fdcfcf;
+    font-size: 40px;
+    font-family: 'Average Sans', serif;
+    width: 500px;
+    height: 100px;
+    border-radius: 20px;
+    border-color: #fc8b8b;
+    border-width: 10px;
+    border-style: solid;
+    margin: 30px auto;
+}
+
+.colors-menu h1 {
+    font-size: 90px;
+    font-family: 'Average Sans', serif;
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+
+.colors {
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: repeat(5, 100px);
+    width: 500px;
+    height: 500px;
+    border: red;
+    margin-bottom: 100px;
+}
+
+.color {
+    height: 100px;
+    width: 100px;
+}
